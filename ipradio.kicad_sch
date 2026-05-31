@@ -2,9 +2,193 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 8a54d64b-fc0c-416f-bc23-c8cdbd245f9f)
-	(paper "A4")
+	(uuid "8a54d64b-fc0c-416f-bc23-c8cdbd245f9f")
+	(paper "A0")
 	(lib_symbols)
+	(sheet
+		(at 622.3 27.94)
+		(size 528.32 353.06)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "116ad10d-c8d1-45a4-8e1b-688fee1af866")
+		(property "Sheetname" "esp32"
+			(at 622.3 27.2284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 622.3 381.5846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ipradio"
+				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 29.21)
+		(size 528.32 353.06)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6090eeb7-16a9-4e53-b8de-cea9f74d4e06")
+		(property "Sheetname" "power_supply"
+			(at 43.18 28.4984 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 43.18 382.8546 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ipradio"
+				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 43.18 406.4)
+		(size 528.32 353.06)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "68655846-d262-4627-826b-c40a0dd3f1c4")
+		(property "Sheetname" "interface"
+			(at 43.18 405.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface.kicad_sch"
+			(at 43.18 760.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ipradio"
+				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 622.3 406.4)
+		(size 528.32 353.06)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e3530b47-4c80-4c71-86fe-2b44ce50d0b5")
+		(property "Sheetname" "dac"
+			(at 622.3 405.6884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dac.kicad_sch"
+			(at 622.3 760.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ipradio"
+				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
