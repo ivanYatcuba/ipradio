@@ -16,6 +16,7 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 *.lck
+ipradio-backups
 
 # --- Local User Settings and Caches ---
 # Contains your personal window positions, visible layers, and local paths
