@@ -439,7 +439,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -450,7 +450,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -632,7 +632,7 @@
         "uuid": "8a54d64b-fc0c-416f-bc23-c8cdbd245f9f"
       }
     ],
-    "used_designators": "U1,S3,#PWR10,#PWR13-14,#PWR16,#PWR35,#PWR63-65,R8,R10,C26-27,IC7-8",
+    "used_designators": "#PWR11,#PWR40",
     "variants": []
   },
   "sheets": [
