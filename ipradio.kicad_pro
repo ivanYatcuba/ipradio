@@ -495,6 +495,36 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "ANT",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 28, 0)",
+        "tuning_profile": "",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(47, 234, 255)",
+        "tuning_profile": "",
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 93, 0)",
+        "tuning_profile": "",
+        "wire_width": 12
       }
     ],
     "meta": {
@@ -502,7 +532,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "USB*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "*/SPI*"
+      },
+      {
+        "netclass": "ANT",
+        "pattern": "*/ANT*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -632,7 +675,7 @@
         "uuid": "8a54d64b-fc0c-416f-bc23-c8cdbd245f9f"
       }
     ],
-    "used_designators": "#PWR11,#PWR40",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
