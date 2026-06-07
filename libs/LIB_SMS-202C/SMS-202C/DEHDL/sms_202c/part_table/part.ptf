@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SMS_202C'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Leader Tech Inc.", "SMS-202C" (!) = "", "SMS202F", "Other", "861-SMS-202C", "https://www.mouser.co.uk/ProductDetail/LeaderTech/SMS-202C?qs=u16ybLDytRYoSSFRGBpM2A%3D%3D", "LEADER TECH-FERRISHIELD - SMS-202C - EMI SHIELDING, 17.07 X 17.07 X 2.01MM", "https://www.leadertechinc.com/assets/files/EngineeringDrawings/SMS-202.pdf", "3.61 mm"
+END_PART
+
+END.

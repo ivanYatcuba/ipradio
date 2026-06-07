@@ -853,231 +853,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ipradio:CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at 8.89 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
-				(at 8.89 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CM7V32768TBQA020"
-				(at 8.89 -96.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf"
-				(at 8.89 -196.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "CRYSTAL 32.768KHZ SMD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.65"
-				(at 8.89 -396.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "428-201345-MG01"
-				(at 8.89 -496.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32.768kHz-7pF-20PPM-TA-QC?qs=7bTaA%2FLYtSYA2NGDS9ZOKA%3D%3D"
-				(at 8.89 -596.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Micro Crystal AG"
-				(at 8.89 -696.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
-				(at 8.89 -796.19 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC_1_1"
-				(polyline
-					(pts
-						(xy 3.048 2.54) (xy 3.048 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.048 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 4.064 3.556)
-					(end 6.096 -3.556)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 2.54) (xy 7.112 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ipradio:CONMHF1-SMD-T"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4617,12 +4392,6 @@
 		(uuid "08517294-e951-4b88-a492-74db0410e120")
 	)
 	(junction
-		(at 243.84 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d42aebf-b0c4-4169-9312-bafd93be9b8e")
-	)
-	(junction
 		(at 302.26 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4665,22 +4434,10 @@
 		(uuid "206757a4-8f20-43e2-89cb-c442bdc9d785")
 	)
 	(junction
-		(at 232.41 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2726d321-e52e-4e7c-b3ca-491d9d935d8a")
-	)
-	(junction
 		(at 110.49 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2779a714-484d-4272-a7c2-4d55a8a2dd02")
-	)
-	(junction
-		(at 219.71 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29f73abe-717b-4ce4-b9de-0caf80d7c9a1")
 	)
 	(junction
 		(at 332.74 41.91)
@@ -4831,12 +4588,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74d0a2da-b13e-473c-9e56-2c1a06629c81")
-	)
-	(junction
-		(at 232.41 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "765a2dc5-50ad-4d7c-9f96-e30fe8e32ee3")
 	)
 	(junction
 		(at 161.29 215.9)
@@ -5031,12 +4782,6 @@
 		(uuid "fd4be62f-47db-4e76-98ba-317efbb2d925")
 	)
 	(junction
-		(at 243.84 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdc3ba2c-418e-4491-bda3-e01079d45d7d")
-	)
-	(junction
 		(at 83.82 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5053,6 +4798,10 @@
 		(uuid "0dd92826-0710-4463-8330-1d9724640180")
 	)
 	(no_connect
+		(at 134.62 99.06)
+		(uuid "0fde1461-be0a-47e5-98dd-bb77f3846fb8")
+	)
+	(no_connect
 		(at 358.14 180.34)
 		(uuid "10d8f894-270a-4d87-914d-7aa6c0ef4e48")
 	)
@@ -5065,8 +4814,16 @@
 		(uuid "202cd19d-eeb6-4a01-bf69-f8138132c1c6")
 	)
 	(no_connect
+		(at 176.53 67.31)
+		(uuid "52f41aa5-2f65-4646-9c4b-f8cdc2d5cabf")
+	)
+	(no_connect
 		(at 358.14 190.5)
 		(uuid "66934a6c-6f54-4cbe-8f1d-fcaff2a6508b")
+	)
+	(no_connect
+		(at 134.62 101.6)
+		(uuid "680e9b51-4807-4cb2-9e81-4e88a6e6506b")
 	)
 	(no_connect
 		(at 358.14 172.72)
@@ -5344,16 +5101,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 43.18) (xy 224.79 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11e8ff20-8eaa-43bc-912a-9fcf2aac69b0")
-	)
-	(wire
-		(pts
 			(xy 129.54 154.94) (xy 129.54 152.4)
 		)
 		(stroke
@@ -5591,16 +5338,6 @@
 			(type default)
 		)
 		(uuid "3499dc97-68fe-4c43-80b0-b92f5bd31ef2")
-	)
-	(wire
-		(pts
-			(xy 232.41 33.02) (xy 243.84 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369e6b98-ad9d-4d4d-8501-2a2647365877")
 	)
 	(wire
 		(pts
@@ -6064,16 +5801,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 43.18) (xy 219.71 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69979ada-6802-47ba-8638-0ce9efc686a3")
-	)
-	(wire
-		(pts
 			(xy 340.36 149.86) (xy 340.36 138.43)
 		)
 		(stroke
@@ -6131,16 +5858,6 @@
 			(type default)
 		)
 		(uuid "6ea6b079-e219-4e41-8e60-7a2448e9d8d7")
-	)
-	(wire
-		(pts
-			(xy 232.41 43.18) (xy 243.84 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "725e4e30-e463-451a-b5a9-8ac8489d46e5")
 	)
 	(wire
 		(pts
@@ -6634,16 +6351,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 33.02) (xy 243.84 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b1ac0a-b4fd-474a-8460-c8c0ced8e290")
-	)
-	(wire
-		(pts
 			(xy 110.49 102.87) (xy 110.49 104.14)
 		)
 		(stroke
@@ -6944,16 +6651,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 33.02) (xy 224.79 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd82c0e9-a6cc-4d45-8a6d-8846167c49a4")
-	)
-	(wire
-		(pts
 			(xy 308.61 194.31) (xy 313.69 194.31)
 		)
 		(stroke
@@ -7091,16 +6788,6 @@
 			(type default)
 		)
 		(uuid "c6ea63d0-c704-4a58-952d-8c6d7de6bccb")
-	)
-	(wire
-		(pts
-			(xy 243.84 33.02) (xy 246.38 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c99d7a0c-ef0f-4245-a2a9-dd96491f857f")
 	)
 	(wire
 		(pts
@@ -7384,16 +7071,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 41.91) (xy 243.84 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e80e638f-2f36-497c-b023-410609405662")
-	)
-	(wire
-		(pts
 			(xy 332.74 44.45) (xy 332.74 41.91)
 		)
 		(stroke
@@ -7474,16 +7151,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 43.18) (xy 246.38 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f67bde4c-a4fa-48d5-85e3-6cbae58d090c")
-	)
-	(wire
-		(pts
 			(xy 30.48 33.02) (xy 41.91 33.02)
 		)
 		(stroke
@@ -7491,16 +7158,6 @@
 			(type default)
 		)
 		(uuid "f71b6817-2e3c-42de-aaf5-d183dffccd2c")
-	)
-	(wire
-		(pts
-			(xy 219.71 43.18) (xy 219.71 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd3c1fb6-c925-4709-8397-9534ef118ba9")
 	)
 	(wire
 		(pts
@@ -7581,16 +7238,6 @@
 			(justify left bottom)
 		)
 		(uuid "10d4a86a-3413-49b5-8b0e-f74703545ac4")
-	)
-	(label "GPIO1"
-		(at 246.38 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "156e5c43-68b9-4013-ae82-439c7bd6116f")
 	)
 	(label "GPIO19"
 		(at 176.53 67.31 0)
@@ -7862,7 +7509,7 @@
 		)
 		(uuid "a1e28d23-eeb2-4c06-aba0-581ae5fbd925")
 	)
-	(label "GPIO19"
+	(label "GPIO3"
 		(at 41.91 33.02 0)
 		(effects
 			(font
@@ -8031,16 +7678,6 @@
 			(justify left bottom)
 		)
 		(uuid "f79fd568-a615-4c40-9b3b-d3963525e563")
-	)
-	(label "GPIO0"
-		(at 246.38 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7f96025-034b-466d-af17-c8aa9d8e2fd3")
 	)
 	(label "ANT_OUT"
 		(at 72.39 83.82 0)
@@ -8504,85 +8141,6 @@
 			(project "ipradio"
 				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f/116ad10d-c8d1-45a4-8e1b-688fee1af866"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 228.6 43.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0888a5e6-874f-49f7-a8c3-06064ec0fa8f")
-		(property "Reference" "C22"
-			(at 225.806 48.006 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10pF"
-			(at 231.394 47.244 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 224.79 44.1452 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0dc5dad6-1793-4bab-8642-dbd8ac3dd281")
-		)
-		(pin "1"
-			(uuid "6b5e1028-9653-4b5a-9544-fa38a642cf81")
-		)
-		(instances
-			(project "ipradio"
-				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f/116ad10d-c8d1-45a4-8e1b-688fee1af866"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -11351,228 +10909,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 228.6 33.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6ac4ab2d-260f-42f5-ac80-288fecdf52ad")
-		(property "Reference" "C21"
-			(at 224.536 31.242 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10pF"
-			(at 232.41 30.988 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 232.41 32.0548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 228.6 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f7926c13-6035-4cf8-8893-4a717a00a449")
-		)
-		(pin "1"
-			(uuid "f9ead937-51c4-47d3-a2fd-ff2d5310abbe")
-		)
-		(instances
-			(project "ipradio"
-				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f/116ad10d-c8d1-45a4-8e1b-688fee1af866"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ipradio:CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC")
-		(at 232.41 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6be254f7-e921-4741-913e-a2343f7aa0f5")
-		(property "Reference" "Y1"
-			(at 215.646 27.432 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
-			(at 219.71 27.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ipradio:CM7V32768TBQA020"
-			(at 328.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/32kHz/Datasheet/CM7V-T1A.pdf"
-			(at 428.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "CRYSTAL 32.768KHZ SMD"
-			(at 232.41 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.65"
-			(at 628.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "428-201345-MG01"
-			(at 728.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32.768kHz-7pF-20PPM-TA-QC?qs=7bTaA%2FLYtSYA2NGDS9ZOKA%3D%3D"
-			(at 828.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Micro Crystal AG"
-			(at 928.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CM7V-T1A-32.768KHZ-7PF-20PPM-TA-QC"
-			(at 1028.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "247e935b-321e-47a4-ae80-8542ee178f8e")
-		)
-		(pin "2"
-			(uuid "483406e5-753c-45fc-9d03-6bcbef5e04ed")
-		)
-		(instances
-			(project "ipradio"
-				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f/116ad10d-c8d1-45a4-8e1b-688fee1af866"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 336.55 209.55 0)
 		(unit 1)
@@ -13542,88 +12878,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 243.84 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aaa5d2f5-f521-4063-af81-57316a7e987f")
-		(property "Reference" "R21"
-			(at 246.38 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10МОм"
-			(at 246.38 39.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 242.062 38.1 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 243.84 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2aaa2fe0-3d03-4e55-b793-0dc9da291a13")
-		)
-		(pin "2"
-			(uuid "325a2e11-bfb2-4b47-a9cd-a1b612ff1c8d")
-		)
-		(instances
-			(project "ipradio"
-				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f/116ad10d-c8d1-45a4-8e1b-688fee1af866"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ipradio:SS8050-G")
 		(at 52.07 179.07 90)
 		(mirror x)
@@ -14844,84 +14098,6 @@
 			(project "ipradio"
 				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f/116ad10d-c8d1-45a4-8e1b-688fee1af866"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 219.71 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dea3cb25-2226-4971-882c-339f64f870db")
-		(property "Reference" "#PWR053"
-			(at 219.71 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.932 53.848 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "04b1fd1c-fed0-45a6-b7ee-d7ad51fea3f4")
-		)
-		(instances
-			(project "ipradio"
-				(path "/8a54d64b-fc0c-416f-bc23-c8cdbd245f9f/116ad10d-c8d1-45a4-8e1b-688fee1af866"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
